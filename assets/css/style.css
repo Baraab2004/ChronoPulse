@@ -133,7 +133,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    background-image: url(file:///C:/Users/HITECH/Desktop/ChronoPulse/assets/img/backgrounds/cover1.jpg);
+    background-image: url(file:///C:/Users/HITECH/Desktop/ChronoPulse/assets/img/backgrounds/cover.jpg);
     height: 80vh;
     display: flex;
     position: relative;
@@ -549,29 +549,35 @@ body {
     .products .product .pro-img {
         width: auto;
     }
-    .products .product{
+
+    .products .product {
         align-items: center;
     }
 }
+
 .footer {
     padding: 20px;
     background-color: var(--mainColor);
     color: #fff;
     font-family: var(--mainFont);
 }
-.footer .row{
+
+.footer .row {
     flex-direction: column;
 }
-.footer-item a{
+
+.footer-item a {
     color: #F4F4F4;
 }
-.start-footer{
+
+.start-footer {
     display: flex;
     flex-direction: column;
     gap: 20px;
     flex-wrap: wrap;
 }
-.data-info-footer{
+
+.data-info-footer {
     display: flex;
     gap: 100px;
     flex-wrap: wrap;
@@ -580,9 +586,11 @@ body {
     padding: 10px;
     border: 1px solid var(--mainColor);
 }
+
 .start-footer .logo a {
     color: var(--subColor);
 }
+
 .start-footer .logo {
     display: flex;
     align-items: center;
@@ -601,6 +609,7 @@ body {
 .start-footer .logo img {
     width: 32px;
 }
+
 .start-footer {
     width: 100%;
     display: flex;
@@ -608,14 +617,16 @@ body {
     flex-wrap: wrap;
 }
 
-.start-footer .item a{
+.start-footer .item a {
     color: #F4F4F4;
 }
-.start-footer .item{
+
+.start-footer .item {
     display: flex;
     gap: 40px;
 }
-.start-footer .info-footer{
+
+.start-footer .info-footer {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -632,13 +643,16 @@ body {
     border-bottom-left-radius: 60px;
     align-items: center;
 }
-.start-footer .info-footer a{
+
+.start-footer .info-footer a {
     color: var(--subColor);
 }
-.social-media i{
+
+.social-media i {
     font-size: 25px;
     color: #F4F4F4;
 }
+
 .end-footer {
     display: flex;
     flex-grow: 1;
@@ -651,8 +665,9 @@ body {
     display: flex;
     gap: 20px;
 }
+
 .copyright {
-    background-color:#2121214b;
+    background-color: #2121214b;
     text-align: center;
     font-size: 14px;
     color: #F4F4F4;
